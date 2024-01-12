@@ -1,8 +1,8 @@
 // 🔍 Part 1 error
 const userName = "Moroni";
 console.log(`Username: ${userName}`);
-userName = "Moronihah";
-console.log(`Username: ${userName}`);
+let userName = "Moronihah";
+console.log(`Username: ${userName}`)
 
 // 🔍 Part 2 error
 const currentDateAndTime = Date();
