@@ -16,7 +16,7 @@ const profilePicture = 'images/taiwo.jpg'; // Replace with the actual image name
 
 const nameElement = document.getElementById('name');
 
-const foodElement = document.getElementsByClassName('food');
+const foodElement = document.getElementBycl('food');
 
 
 const yearElement = document.querySelector('#year');
