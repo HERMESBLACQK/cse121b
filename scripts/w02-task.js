@@ -16,7 +16,7 @@ const profilePicture = 'images/taiwo.jpg'; // Replace with the actual image name
 
 const nameElement = document.getElementById('name');
 
-let foodElement = document.getElementById('food');
+const foodElement = document.getElementById('food');
 
 
 const yearElement = document.querySelector('#year');
@@ -41,7 +41,7 @@ imageElement.setAttribute('src', profilePicture);
 /* Step 5 - Array */
 
 // Declare an array variable to hold your favorite foods.
-let favFoods = ['Pizza', 'Ice Cream', 'Sushi', 'Chocolate', 'Burger'];
+let favFoods = ['Pizza', 'Ice Cream', 'Sushi', 'Chocolate', 'Burgers'];
 
 // Modify the HTML element with the id of food to display your favorite foods array.
 foodElement.innerHTML = favFoods
