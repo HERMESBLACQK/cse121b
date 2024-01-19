@@ -41,7 +41,7 @@ imageElement.setAttribute('src', profilePicture);
 /* Step 5 - Array */
 
 // Declare an array variable to hold your favorite foods.
-let favFoods = ['Pizza', 'Ice Cream', 'Sushi', 'Chocolate', 'Burgers'];
+let favFoods = ['Pizza', 'Ice Cream', 'Sushi', 'Chocolate', 'Burger'];
 
 // Modify the HTML element with the id of food to display your favorite foods array.
 foodElement.innerHTML = favFoods
