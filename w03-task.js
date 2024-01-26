@@ -79,6 +79,7 @@ document.querySelector('#sumOfArray').textContent = `Sum: ${numbersArray.reduce(
 
 
 /* Output Multiplied by 2 Array */
+document.querySelector('#multiplied').textContent = `Multiplied: ${numbersArray.map(number => number * 2).join(', ')}`;
 
 
 /* Output Sum of Multiplied by 2 Array */
