@@ -44,20 +44,35 @@ function factor(number1, number2) {
 
 
 /* Open Function Use - Divide Numbers */
-function add(number1, number2) {
-          return number1 + number2;
+function divide(number1, number2) {
+          return number1 / number2;
       }
       
-      function addNumbers() {
-          let addNumber1 = Number(document.querySelector('#add1').value);
-          let addNumber2 = Number(document.querySelector('#add2').value);
-          document.querySelector('#sum').value = add(addNumber1, addNumber2);
+      function divideNumbers() {
+          let divideNumber1 = Number(document.querySelector('#dividend').value);
+          let divideNumber2 = Number(document.querySelector('#divisor').value);
+          document.querySelector('#quotient').value = divide(divideNumber1, divideNumber2);
       }
       
-      document.querySelector('#addNumbers').addEventListener('click', addNumbers);
+      document.querySelector('#divideNumbers').addEventListener('click', divideNumbers);
 
 
 /* Decision Structure */
+
+document.addEventListener('DOMContentLoaded', function () {
+          // Selection Structures
+          document.getElementById('getTotal').addEventListener('click', function () {
+              let subtotal = parseFloat(document.getElementById('subtotal').value) || 0;
+              let isMember = document.getElementById('member').checked;
+      
+              if (isMember) {
+                  subtotal *= 0.8; // Apply 20% discount for members
+              }
+      
+              document.getElementById('total').textContent = `$${subtotal.toFixed(2)}`;
+          });
+
+
 
 
 /* ARRAY METHODS - Functional Programming */
@@ -85,3 +100,4 @@ document.querySelector('#multiplied').textContent = `Multiplied: ${numbersArray.
 /* Output Sum of Multiplied by 2 Array */
 document.querySelector('#sumOfMultiplied').textContent = `Sum of Multiplied: ${numbersArray.map(number => number * 2).reduce((sum, number) => sum + number, 0)}`;
 
+});
