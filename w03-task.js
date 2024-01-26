@@ -16,11 +16,11 @@ function add(number1, number2) {
 
 
 /* Function Expression - Subtract Numbers */
-function Subtract(number1, number2) {
+function subtract(number1, number2) {
           return number1 - number2;
       }
       
-      function SubtractNumbers() {
+      function subtractNumbers() {
           let subtractNumber1 = Number(document.querySelector('#add1').value);
           let subtractNumber2 = Number(document.querySelector('#add2').value);
           document.querySelector('#sum').value = Subtract(subtractNumber1, subtractNumber2);
