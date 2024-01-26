@@ -26,21 +26,21 @@ function subtract(number1, number2) {
           document.querySelector('#difference').value = subtract(subtractNumber1, subtractNumber2);
       }
       
-      document.querySelector('#SubtractNumbers').addEventListener('click', subtractNumbers);
+      document.querySelector('#subtractNumbers').addEventListener('click', subtractNumbers);
 
 
 /* Arrow Function - Multiply Numbers */
-function add(number1, number2) {
+function factor(number1, number2) {
           return number1 + number2;
       }
       
-      function addNumbers() {
-          let addNumber1 = Number(document.querySelector('#add1').value);
-          let addNumber2 = Number(document.querySelector('#add2').value);
-          document.querySelector('#sum').value = add(addNumber1, addNumber2);
+      function factorNumbers() {
+          let factorNumber1 = Number(document.querySelector('#factor1').value);
+          let factorNumber2 = Number(document.querySelector('#factor1').value);
+          document.querySelector('#sum').value = add(factorNumber1, factorNumber2);
       }
       
-      document.querySelector('#addNumbers').addEventListener('click', addNumbers);
+      document.querySelector('#multiplyNumbers').addEventListener('click', addNumbers);
 
 
 /* Open Function Use - Divide Numbers */
