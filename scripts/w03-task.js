@@ -36,7 +36,7 @@ function factor(number1, number2) {
       
       function factorNumbers() {
           let factorNumber1 = Number(document.querySelector('#factor1').value);
-          let factorNumber2 = Number(document.querySelector('#factor1').value);
+          let factorNumber2 = Number(document.querySelector('#factor2').value);
           document.querySelector('#product').value = factor(factorNumber1, factorNumber2);
       }
       
