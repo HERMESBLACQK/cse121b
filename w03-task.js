@@ -31,16 +31,16 @@ function subtract(number1, number2) {
 
 /* Arrow Function - Multiply Numbers */
 function factor(number1, number2) {
-          return number1 + number2;
+          return number1 * number2;
       }
       
       function factorNumbers() {
           let factorNumber1 = Number(document.querySelector('#factor1').value);
           let factorNumber2 = Number(document.querySelector('#factor1').value);
-          document.querySelector('#sum').value = add(factorNumber1, factorNumber2);
+          document.querySelector('#product').value = factor(factorNumber1, factorNumber2);
       }
       
-      document.querySelector('#multiplyNumbers').addEventListener('click', addNumbers);
+      document.querySelector('#multiplyNumbers').addEventListener('click', factorNumbers);
 
 
 /* Open Function Use - Divide Numbers */
