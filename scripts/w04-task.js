@@ -3,6 +3,21 @@
 /* Profile Object  */
 
 
+// Declare a new object literal variable named myProfile
+let myProfile = {};
+
+// Add properties to the myProfile object
+myProfile.name = "Patrick Juarez";
+myProfile.photo = "path/to/your/image.jpg";
+myProfile.favoriteFoods = [
+  'Rice',
+  'Tikka Masala',
+  'Prioshki',
+  'Shrimp',
+  'Banana Cream Pie'
+];
+myProfile.hobbies = ['Reading', 'Traveling', 'Coding'];
+myProfile.placesLived = [];
 
 
 /* Populate Profile Object with placesLive objects */
@@ -57,21 +72,6 @@ myProfile.placesLived.forEach(place => {
         });
 
 
-// Declare a new object literal variable named myProfile
-let myProfile = {};
-
-// Add properties to the myProfile object
-myProfile.name = "Patrick Juarez";
-myProfile.photo = "path/to/your/image.jpg";
-myProfile.favoriteFoods = [
-  'Rice',
-  'Tikka Masala',
-  'Prioshki',
-  'Shrimp',
-  'Banana Cream Pie'
-];
-myProfile.hobbies = ['Reading', 'Traveling', 'Coding'];
-myProfile.placesLived = [];
 
 // Add items to the placesLived array
 myProfile.placesLived.push(
