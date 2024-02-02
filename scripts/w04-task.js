@@ -36,7 +36,7 @@ document.querySelector('#name').textContent = myProfile.name ;
 document.querySelector('#photo').src = myProfile.photo;
 
 // Assign the value of the name property as the alt attribute of the HTML <img> with an ID of photo
-document.querySelector('#photo').alt = myProfile.name;
+document.querySelector('#photo').alt = myProfile.name;   
 
 
 
