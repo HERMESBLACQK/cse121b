@@ -76,7 +76,7 @@ myProfile.placesLived.forEach(place => {
 // Add items to the placesLived array
 myProfile.placesLived.push(
   {
-    place: 'San Francisco, CA',
+    place: 'San Francisco, CA', 
     length: '1 year'
   }
 );
