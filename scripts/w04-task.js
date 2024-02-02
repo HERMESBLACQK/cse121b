@@ -45,7 +45,7 @@ myProfile.placesLived.push(
 // Add additional items to the placesLived array
 myProfile.placesLived.push(
   {
-    place: 'Uyo City, NY',
+    place: 'Uyo City, Akwa Ibom State',
     length: '2 years'
   },
   {
