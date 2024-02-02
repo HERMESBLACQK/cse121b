@@ -13,9 +13,10 @@
 // DOM Manipulation (Output)
 
 // Assign the value of the name property to the HTML element with an ID of name
-document.querySelector('#name').textContent = myProfile.name;
+document.querySelector('#name').textContent = myProfile.name ;
 
 /* Photo with attributes */
+
 // Assign the value of the photo property as the src attribute of the HTML <img> with an ID of photo
 document.querySelector('#photo').src = myProfile.photo;
 
@@ -28,7 +29,12 @@ document.querySelector('#photo').alt = myProfile.name;
 
 
 /* Hobbies List */
-
+// Iterate over hobbies and append them to the HTML <ul> with an ID of hobbies
+myProfile.hobbies.forEach(hobby => {
+          let li = document.createElement('li');
+          li.textContent = hobby;
+          document.querySelector('#hobbies').appendChild(li);
+        });
 
 /* Places Lived DataList */
 // Iterate over placesLived and append them to the HTML <dl> with an ID of places-lived
@@ -89,12 +95,7 @@ myProfile.favoriteFoods.forEach(food => {
   document.querySelector('#favorite-foods').appendChild(li);
 });
 
-// Iterate over hobbies and append them to the HTML <ul> with an ID of hobbies
-myProfile.hobbies.forEach(hobby => {
-  let li = document.createElement('li');
-  li.textContent = hobby;
-  document.querySelector('#hobbies').appendChild(li);
-});
+
 
 
 
