@@ -8,7 +8,7 @@ let myProfile = {};
 
 // Add properties to the myProfile object
 myProfile.name = "Patrick Juarez";
-myProfile.photo = "path/to/your/image.jpg";
+myProfile.photo = "images/taiwo.jpg";
 myProfile.favoriteFoods = [
   'Rice',
   'Tikka Masala',
