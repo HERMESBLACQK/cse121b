@@ -17,7 +17,7 @@ myProfile.favoriteFoods = [
   'Banana Cream Pie'
 ];
 myProfile.hobbies = ['Reading', 'Traveling', 'Coding'];
-myProfile.placesLived = [];
+myProfile.placesLived = [];   
 
 
 /* Populate Profile Object with placesLive objects */
