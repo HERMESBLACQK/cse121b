@@ -27,6 +27,13 @@ document.querySelector('#photo').alt = myProfile.name;
 
 /* Favorite Foods List*/
 
+// Iterate over favoriteFoods and append them to the HTML <ul> with an ID of favorite-foods
+myProfile.favoriteFoods.forEach(food => {
+          let li = document.createElement('li');
+          li.textContent = food;
+          document.querySelector('#favorite-foods').appendChild(li);
+        });
+
 
 /* Hobbies List */
 // Iterate over hobbies and append them to the HTML <ul> with an ID of hobbies
@@ -88,12 +95,6 @@ myProfile.placesLived.push(
 
 
 
-// Iterate over favoriteFoods and append them to the HTML <ul> with an ID of favorite-foods
-myProfile.favoriteFoods.forEach(food => {
-  let li = document.createElement('li');
-  li.textContent = food;
-  document.querySelector('#favorite-foods').appendChild(li);
-});
 
 
 
