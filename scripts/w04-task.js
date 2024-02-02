@@ -38,7 +38,7 @@ myProfile.placesLived = [];
 myProfile.placesLived.push(
   {
     place: 'Akure City, Ondo State',
-    length: '1 year'
+    length: '19 year'
   }
 );
 
@@ -50,7 +50,7 @@ myProfile.placesLived.push(
   },
   {
     place: 'Calabar, Cross River State',
-    length: '3 years'
+    length: '1 years'
   }
 );
 
