@@ -49,7 +49,7 @@ myProfile.placesLived.push(
     length: '2 years'
   },
   {
-    place: 'Seattle, WA',
+    place: 'Calabar, Cross River State',
     length: '3 years'
   }
 );
