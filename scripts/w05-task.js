@@ -57,7 +57,7 @@ const filterTemples = (temples) => {
     case "utah":
       displayTemples(temples.filter(temple => temple.location.includes("Utah")));
       break;
-    case "noutah":
+    case "notutah":
       displayTemples(temples.filter(temple => !temple.location.includes("Utah")));
       console.log('noutah')
       break;
