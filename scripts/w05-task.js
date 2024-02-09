@@ -75,5 +75,6 @@ const filterTemples = (temples) => {
 
 // Event Listener: filterTemples Element change
 document.querySelector("#filtered").addEventListener("change", () => { filterTemples(templeList) });
+
 // Call getTemples at the bottom of the file
 getTemples();
