@@ -4,7 +4,7 @@ let templeList = [];
 
 // Function: displayTemples
 const displayTemples = (temples) => {
-          
+
   temples.forEach((temple) => {
     // Create HTML elements
     const article = document.createElement('article');
@@ -22,6 +22,7 @@ const displayTemples = (temples) => {
 
     // Append article to templesElement
     templesElement.appendChild(article);
+    
   });
 };
 
