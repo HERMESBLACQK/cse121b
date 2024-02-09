@@ -11,6 +11,7 @@ const displayTemples = (temples) => {
     const h3 = document.createElement('h3');
     const img = document.createElement('img');
 
+    
     // Set properties for h3 and img
     h3.textContent = temple.templeName;
     img.src = temple.imageUrl;
