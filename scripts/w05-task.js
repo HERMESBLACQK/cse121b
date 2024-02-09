@@ -63,7 +63,7 @@ const filterTemples = (temples) => {
       break;
     case "older":
       displayTemples(temples.filter(temple => new Date(temple.dedicationDate) < new Date(1950, 0, 1)));
-      console.log('dates')
+     
       break;
     case "all":
       displayTemples(temples);
